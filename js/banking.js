@@ -9,4 +9,7 @@ document.getElementById('deposite-button').addEventListener('click', function ()
 
     const depositeCureent = document.getElementById('deposite-output');
     depositeCureent.innerText = depositeAmount;
+
+    //clear the deposit inputfield
+    depositeInput.value = '';
 })
